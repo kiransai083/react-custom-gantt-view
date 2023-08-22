@@ -11,11 +11,6 @@ function App() {
 
   return (
     <>
-      <CustomButton onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </CustomButton>
-
-      <hr/>
 
       <GanttView />
     </>

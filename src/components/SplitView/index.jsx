@@ -1,10 +1,9 @@
 import React, { createRef, useEffect, useState } from "react";
 import './index.scss';
 
-const MIN_WIDTH = 150;
+const MIN_WIDTH = 350;
 
 const LeftPane = ({ children, leftWidth, setLeftWidth }) => {
-  console.log("🚀 ~ file: index.jsx:7 ~ LeftPane ~ leftWidth:", leftWidth)
   const leftRef = createRef();
 
   useEffect(() => {
