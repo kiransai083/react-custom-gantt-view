@@ -1,0 +1,32 @@
+[
+    {
+        "key": "brief",
+        "label": "Create Brief",
+        "type": "popup",
+        "path": "brief"
+    },
+    {
+        "key": "uploads",
+        "label": "My Uploads",
+        "type": "popup",
+        "path": "uploads"
+    },
+    {
+        "key": "profile",
+        "label": "My Profile",
+        "type": "page",
+        "path": "home"
+    },
+    {
+        "key": "approvals",
+        "label": "My Approvals",
+        "type": "page",
+        "path": "about"
+    },
+    {
+        "key": "notifications",
+        "label": "Notifications",
+        "type": "page",
+        "path": "contact"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+       "order": 0,
+       "prompt": "Would you like to create a project or select existing project templates?",
+       "key": "project",
+       "keywords": {
+         "new" : "2",
+         "scratch":"2",
+         "blank":"2",
+         "existing":"3",
+         "template":"3"
+       }
+      
+    },
+    {
+      "order": 2,
+      "prompt": "Thanks for creating a blank project, Please select Assest template from Below",
+      "key": "brief" ,    "ispopup":true,
+      "list": ["studio" , "studio Brief", "test Brief" ]
+     
+   },
+   {
+      "order": 3,
+      "prompt":  "Please select  Project template from Below",
+      "key": "project",
+      "list": ["Dev Project" , "Test Project", "Test Project 2" ],
+      "keywords": {
+        "Dev Project" : "4",
+        "Test Project":"4",
+        "Test Project 2":"4"
+      }
+    },
+      {
+        "order": 4,
+        "prompt": "Thanks for selecting a project, Please select Assest template from Below",
+        "key": "brief" ,
+        "ispopup":true,
+        "list": ["studio" , "studio Brief", "test Brief" ]
+       
+   }
+   
+ ]

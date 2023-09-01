@@ -1,0 +1,13 @@
+@use '../../styles/master.scss';
+
+.card-container {
+    background-color: master.color(primary);
+    color: master.color(accent);
+    min-width: 90px;
+    max-width: 90%;
+    margin: 5 0;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    border-top-left-radius: 0;
+}

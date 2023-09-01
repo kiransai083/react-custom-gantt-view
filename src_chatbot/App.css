@@ -1,0 +1,28 @@
+.app {
+    display: flex; 
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #333;
+    color: white;
+  }
+  
+  .header-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #444;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  

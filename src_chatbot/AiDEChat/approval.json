@@ -1,0 +1,44 @@
+[
+    {
+       "order": 0,
+       "prompt": "Would you like to check the approval details for any particular asset",
+       "key": "project",
+       "keywords": {
+         "yes" : "2",
+         "no":"3",
+         "blank":"2",
+         "existing":"3",
+         "template":"3"
+       }
+      
+    },
+    {
+      "order": 2,
+      "prompt": "Please enter the asset id",
+      "key": "project",
+      "blockPromt": true,
+      "keywords": {
+        "new" : "2",
+        "scratch":"2",
+        "blank":"4",
+        "existing":"5",
+        "template":"3",
+        "no":"3"
+      }
+     
+   } ,
+   {
+     "order": 3,
+     "prompt": "Thank for the input, can I help you with any other things",
+     "key": "project",
+     "blockPromt": true,
+     "keywords": {
+       "new" : "2",
+       "scratch":"2",
+       "blank":"4",
+       "existing":"5",
+       "template":"3"
+     }
+    
+  } 
+ ]
